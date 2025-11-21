@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="ELEMENTS" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 58 60">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #bf8c1c;
+      }
+    </style>
+  </defs>
+  <rect class="cls-2" x="5.17" y="6.17" width="47.66" height="47.66" rx="16" ry="16" transform="translate(29.71 -11.72) rotate(45)"/>
+  <path class="cls-1" d="M40.57,26.9c0-2.81-2.27-5.08-5.08-5.08h-12.99c-2.81,0-5.08,2.27-5.08,5.08v6.04c0,2.81,2.27,5.08,5.08,5.08h12.99c2.81,0,5.08-2.27,5.08-5.08v-6.04ZM32.94,30.38l-5.82,2.88c-.23.12-1-.04-1-.3v-5.92c0-.26.78-.43,1.01-.3l5.58,3.03c.23.13.48.47.24.6Z"/>
+</svg>

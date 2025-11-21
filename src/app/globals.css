@@ -1,0 +1,132 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-montserrat: "Montserrat", sans-serif;
+}
+
+body {
+  font-family: var(--font-montserrat);
+}
+/* .mainContainer {
+  width: 1200px;
+}
+
+@media (max-width: 1200px) {
+  .mainContainer {
+    width: 95%;
+  }
+}
+@media (max-width: 768px) {
+  .mainContainer {
+    width: 95%;
+  }
+} */
+/* Base container */
+.mainContainer {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  max-width: 1185px;
+  padding-left: 0;
+  padding-right: 0;
+  position: relative;
+}
+
+/* ≥ 576px */
+@media (min-width: 576px) {
+  .mainContainer {
+    max-width: 540px;
+  }
+}
+
+/* ≥ 768px */
+@media (min-width: 768px) {
+  .mainContainer {
+    max-width: 720px;
+  }
+}
+
+/* ≥ 992px */
+@media (min-width: 992px) {
+  .mainContainer {
+    max-width: 960px;
+  }
+}
+
+/* ≥ 1200px */
+@media (min-width: 1200px) {
+  .mainContainer {
+    max-width: 1140px;
+  }
+}
+
+/* ≥ 1400px */
+@media (min-width: 1400px) {
+  .mainContainer {
+    max-width: 1320px;
+  }
+}
+
+/* ≥ 1800px */
+@media (min-width: 1800px) {
+  .mainContainer {
+    max-width: 1600px;
+  }
+}
+
+.btn {
+  @apply text-xs lg:text-base tracking-wider;
+}
+.btn-sm {
+  @apply text-xs lg:text-sm tracking-wider;
+}
+.h1 {
+  @apply text-[24px] leading-[29px] lg:text-[38px]   lg:leading-[46px] tracking-wider;
+}
+.h2 {
+  @apply text-[18px] leading-[22px] lg:text-[35px]  lg:leading-[35px] tracking-wider;
+}
+.h3 {
+  @apply text-[18px] leading-[22px] lg:text-[24px]  lg:leading-[29px] tracking-wider;
+}
+.h4 {
+  @apply text-sm leading-[17px] lg:text-[17px] lg:leading-[22px];
+}
+.p1 {
+  @apply text-sm leading-5 lg:text-[18px] lg:leading-[29px] tracking-wider;
+}
+.p2 {
+  @apply text-sm leading-5 lg:text-base lg:leading-[22px] tracking-wider;
+}
+.p3 {
+  @apply text-[10px] leading-[12px] lg:text-sm;
+}
+.p4 {
+  @apply text-[10px] leading-[12px] tracking-wide;
+}
+/* Custom Scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: white;
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: white;
+}
+
+/* Firefox */
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #c7a889 white;
+}

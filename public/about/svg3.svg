@@ -1,0 +1,19 @@
+<svg id="land" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="38.609" height="44.68" viewBox="0 0 38.609 44.68">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_12955" data-name="Rectangle 12955" width="38.609" height="44.68" fill="none" stroke="#707070" stroke-width="1.5"/>
+    </clipPath>
+  </defs>
+  <g id="Group_69970" data-name="Group 69970" transform="translate(0 0)">
+    <g id="Group_69969" data-name="Group 69969" clip-path="url(#clip-path)">
+      <line id="Line_301" data-name="Line 301" y1="30.248" transform="translate(18.986 14.432)" fill="none" stroke="#6a6a6a" stroke-miterlimit="10" stroke-width="1.5"/>
+    </g>
+  </g>
+  <line id="Line_302" data-name="Line 302" x1="6.091" y2="3.48" transform="translate(18.987 17.235)" fill="none" stroke="#6a6a6a" stroke-miterlimit="10" stroke-width="1.5"/>
+  <line id="Line_303" data-name="Line 303" x2="6.091" y2="3.655" transform="translate(12.895 22.978)" fill="none" stroke="#6a6a6a" stroke-miterlimit="10" stroke-width="1.5"/>
+  <g id="Group_69972" data-name="Group 69972" transform="translate(0 0)">
+    <g id="Group_69971" data-name="Group 69971" clip-path="url(#clip-path)">
+      <path id="Path_97143" data-name="Path 97143" d="M19.09,30.739a11.03,11.03,0,0,0,14.1,0c7.657-5.83,3.48-17.578-2.959-18.97,0,0-1.74-10.269-11.139-10.269,0,0-9.921.348-10.79,10.095,0,0-9.224,3.655-6.185,14.423A9.517,9.517,0,0,0,7.326,31.73C10.04,33.033,14.15,33.779,19.09,30.739Z" transform="translate(-0.103 -0.103)" fill="none" stroke="#6a6a6a" stroke-miterlimit="10" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

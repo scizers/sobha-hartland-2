@@ -1,0 +1,24 @@
+<svg id="residential" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="74.089" height="40.573" viewBox="0 0 74.089 40.573">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_12957" data-name="Rectangle 12957" width="74.089" height="40.573" fill="none" stroke="#707070" stroke-width="1.5"/>
+    </clipPath>
+  </defs>
+  <g id="Group_69978" data-name="Group 69978" transform="translate(0 0)">
+    <g id="Group_69975" data-name="Group 69975" transform="translate(0 0)">
+      <g id="Group_69974" data-name="Group 69974" clip-path="url(#clip-path)">
+        <path id="Path_97144" data-name="Path 97144" d="M4.579,33.994V6.782h30.1" transform="translate(2.542 3.765)" fill="none" stroke="#6a6a6a" stroke-miterlimit="10" stroke-width="1.5"/>
+        <path id="Path_97145" data-name="Path 97145" d="M24.264,37.621V1.5H54.369V20.726" transform="translate(13.473 0.832)" fill="none" stroke="#6a6a6a" stroke-miterlimit="10" stroke-width="1.5"/>
+      </g>
+    </g>
+    <line id="Line_304" data-name="Line 304" x2="11.389" transform="translate(46.239 17.986)" fill="none" stroke="#6a6a6a" stroke-miterlimit="10" stroke-width="1.5"/>
+    <line id="Line_305" data-name="Line 305" x2="11.389" transform="translate(46.239 28.795)" fill="none" stroke="#6a6a6a" stroke-miterlimit="10" stroke-width="1.5"/>
+    <line id="Line_306" data-name="Line 306" x2="11.389" transform="translate(16.816 28.795)" fill="none" stroke="#6a6a6a" stroke-miterlimit="10" stroke-width="1.5"/>
+    <g id="Group_69977" data-name="Group 69977" transform="translate(0 0)">
+      <g id="Group_69976" data-name="Group 69976" clip-path="url(#clip-path)">
+        <line id="Line_307" data-name="Line 307" x2="74.089" transform="translate(0 38.241)" fill="none" stroke="#6a6a6a" stroke-miterlimit="10" stroke-width="1.5"/>
+      </g>
+    </g>
+  </g>
+  <line id="Line_308" data-name="Line 308" y2="3.652" transform="translate(67.909 24.548)" fill="none" stroke="#707070" stroke-width="1.5"/>
+</svg>
