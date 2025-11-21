@@ -101,13 +101,15 @@ export default function AboutSection() {
 function StatItem({ icon, value, label, sub, width = 50, height = 50 }) {
   return (
     <div className="flex justify-start items-center text-start gap-4">
-      <Image
-        src={icon}
-        alt="icon"
-        width={width}
-        height={height}
-        className="mb-1 flex-shrink-0"
-      />
+      <div className="w-[50px] lg:w-[60px]">
+        <Image
+          src={icon}
+          alt="icon"
+          width={width}
+          height={height}
+          className="mb-1 flex-shrink-0  h-auto"
+        />
+      </div>
       <div className="flex flex-col ">
         <h3 className="text-[22px] md:text-[26px] font-semibold text-black">
           {value}{" "}

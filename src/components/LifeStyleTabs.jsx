@@ -74,12 +74,9 @@ export default function LifestyleTabs({ onOpenPopup }) {
   };
 
   return (
-    <section className="w-full py-16">
+    <section className="w-full lg:py-16">
       <div className="mainContainer grid grid-cols-1 lg:grid-cols-12 items-start gap-10">
-        {/* LEFT TABS */}
-
-        {/* LEFT TABS */}
-        <div className="lg:col-span-3 sticky top-24 h-max">
+        <div className="lg:col-span-3 sticky top-24 h-max hidden lg:block">
           <div className="pointer-events-none absolute inset-y-0 z-10 right-0 w-40 bg-gradient-to-l from-white to-transparent"></div>
 
           <div className="flex flex-col gap-4">
@@ -109,7 +106,7 @@ export default function LifestyleTabs({ onOpenPopup }) {
         </div>
 
         {/* RIGHT SCROLLABLE CONTENT */}
-        <div className="lg:col-span-9  flex flex-col gap-36 pt-6 pr-4">
+        <div className="lg:col-span-9  flex flex-col gap-10 lg:gap-36 pt-6 pr-4">
           {tabs.map((tab) => (
             <div
               key={tab.id}
@@ -118,11 +115,11 @@ export default function LifestyleTabs({ onOpenPopup }) {
               className="scroll-mt-24"
             >
               {/* Content Block */}
-              <div className="grid lg:grid-cols-12  items-start ">
+              <div className="grid lg:grid-cols-12 gap-6 lg:gap-0 items-start ">
                 {/* IMAGE */}
                 <div
                   className={`lg:col-span-7 ${
-                    tab.position === "left" ? "order-1" : "order-2"
+                    tab.position === "left" ? "lg:order-1" : "lg:order-2"
                   } `}
                 >
                   <Image
@@ -137,13 +134,13 @@ export default function LifestyleTabs({ onOpenPopup }) {
 
                 {/* TEXT */}
                 <div
-                  className={`lg:col-span-5 flex flex-col gap-5 ${
+                  className={`lg:col-span-5 flex flex-col gap-3 lg:gap-5 ${
                     tab.position === "left" ? "order-2 " : "order-1 "
                   }`}
                 >
                   <p
                     className={`text-sm tracking-widest text-[#d3b08d] uppercase  ${
-                      tab.position === "left" ? " pl-5" : " pr-5"
+                      tab.position === "left" ? " lg:pl-5" : "  lg:pr-5"
                     }`}
                   >
                     {tab.label}
@@ -151,15 +148,15 @@ export default function LifestyleTabs({ onOpenPopup }) {
 
                   <h3
                     className={`h2 italic text-gray-900  border-b border-gray-300 pb-4  ${
-                      tab.position === "left" ? " pl-5" : " pr-5"
+                      tab.position === "left" ? "  lg:pl-5" : "  lg:pr-5"
                     }`}
                   >
                     {tab.title}
                   </h3>
 
                   <p
-                    className={`text-gray-600 max-h-[6.5rem] overflow-y-auto custom-scrollbar whitespace-pre-line p3 ${
-                      tab.position === "left" ? "px-5" : "mr-5 p-2"
+                    className={`text-gray-600 max-h-[6rem] lg:max-h-[6.5rem] overflow-y-auto custom-scrollbar whitespace-pre-line text-xs lg:text-sm ${
+                      tab.position === "left" ? " lg:px-5" : "lg:mr-5  lg:px-2"
                     }`}
                   >
                     {tab.text}
@@ -167,7 +164,7 @@ export default function LifestyleTabs({ onOpenPopup }) {
 
                   <div
                     className={`flex gap-4 mt-4  ${
-                      tab.position === "left" ? " pl-5" : " pr-5"
+                      tab.position === "left" ? "  lg:pl-5" : "  lg:pr-5"
                     }`}
                   >
                     <div>

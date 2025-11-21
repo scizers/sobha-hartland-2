@@ -11,20 +11,20 @@ const montserrat = Montserrat({
 });
 
 export const metadata = {
-  title: "DAMAC Islands: Luxury Villas & Townhouses in Dubai",
+  title: "Sobha Hartland II | Luxury Living in Dubai",
   description:
-    "Discover DAMAC Islands, Dubai's new chapter in island living. Explore luxury villas, twin villas, and townhouses inspired by the world's best tropical destinations. Invest now!",
+    "sobha Hartland II is a prestigious residential community in Dubai, offering luxurious villas, townhouses, and apartments amidst lush greenery and world-class amenities. Experience unparalleled living in the heart of the city.",
 
   openGraph: {
-    title: "DAMAC Islands: Luxury Villas & Townhouses in Dubai",
+    title: "Sobha Hartland II | Luxury Living in Dubai",
     description:
-      "Discover DAMAC Islands, Dubai's new chapter in island living. Explore luxury villas, twin villas, and townhouses inspired by the world's best tropical destinations. Invest now!",
+      "sobha Hartland II is a prestigious residential community in Dubai, offering luxurious villas, townhouses, and apartments amidst lush greenery and world-class amenities. Experience unparalleled living in the heart of the city.",
 
     url: "https://www.trustinhomes.ae/sobha-hartland2",
     siteName: "DAMAC Islands",
     images: [
       {
-        url: "https://www.trustinhomes.ae/sobha-hartland2/preview-p1.jpg",
+        url: "https://www.trustinhomes.ae/sobha-hartland2/backgrounds/sophistication.webp",
         width: 1200,
         height: 630,
       },
