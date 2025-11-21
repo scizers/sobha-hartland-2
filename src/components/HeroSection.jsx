@@ -79,11 +79,11 @@ const HeroSection = ({ onOpenPopup }) => {
             opacity: isSticky ? 1 : 0,
           }}
           transition={{ duration: 0.4, ease: "easeInOut" }}
-          className="fixed bottom-0 left-0 right-0 z-50 bg-[#026380]/70 backdrop-blur-md  py-3  shadow-lg "
+          className="fixed bottom-0 left-0 right-0 z-50 bg-[#d3b08d]/70 backdrop-blur-md  py-3  shadow-lg "
         >
           <div className="mainContainer mx-auto flex flex-col sm:flex-row gap-3 items-center justify-start">
             <Button
-              variant="outline"
+              variant="outlineBlack"
               className=" !px-6 !font-bold"
               onClick={onOpenPopup}
             >

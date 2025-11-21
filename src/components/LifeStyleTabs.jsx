@@ -166,22 +166,16 @@ export default function LifestyleTabs({ onOpenPopup }) {
                     className={`flex gap-4 mt-4  ${
                       tab.position === "left" ? "  lg:pl-5" : "  lg:pr-5"
                     }`}
-                  >
-                    <div>
-                      <Button
-                        variant="outlineBlack"
-                        size="sm"
-                        className="  "
-                        onClick={onOpenPopup}
-                      >
-                        Register Your Interest
-                      </Button>
-                    </div>
-                  </div>
+                  ></div>
                 </div>
               </div>
             </div>
           ))}
+          <div>
+            <Button variant="outlineBlack" className="  " onClick={onOpenPopup}>
+              Register Your Interest
+            </Button>
+          </div>
         </div>
       </div>
     </section>

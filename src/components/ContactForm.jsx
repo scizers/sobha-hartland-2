@@ -11,7 +11,7 @@ import Dropdown from "./ui/Dropdown";
 
 export default function ContactForm({
   onClose,
-  btnBlue = false,
+  btnGold = false,
   btnText = "Get a Call Back!",
   bgColor = "white",
 }) {
@@ -178,7 +178,7 @@ export default function ContactForm({
       <Button
         type="submit"
         disabled={loading}
-        variant={btnBlue ? "blue" : "green"}
+        variant={btnGold ? "gold" : "green"}
         className="flex items-center justify-center gap-2 !rounded-none w-full !mt-8"
       >
         {loading ? (

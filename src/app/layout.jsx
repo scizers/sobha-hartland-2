@@ -11,14 +11,14 @@ const montserrat = Montserrat({
 });
 
 export const metadata = {
-  title: "Sobha Hartland II | Luxury Living in Dubai",
+  title: "Sobha Hartland 2 | Homes from AED 1.6M | Dubai Living",
   description:
-    "sobha Hartland II is a prestigious residential community in Dubai, offering luxurious villas, townhouses, and apartments amidst lush greenery and world-class amenities. Experience unparalleled living in the heart of the city.",
+    "Discover Sobha Hartland 2 from AED 1.6M with a 40/60 plan—prime Dubai living offering direct beach access and strong investment potential.Discover Sobha Hartland 2 from AED 1.6M with a 40/60 plan—prime Dubai living offering direct beach access and strong investment potential.",
 
   openGraph: {
-    title: "Sobha Hartland II | Luxury Living in Dubai",
+    title: "Sobha Hartland 2 | Homes from AED 1.6M | Dubai Living",
     description:
-      "sobha Hartland II is a prestigious residential community in Dubai, offering luxurious villas, townhouses, and apartments amidst lush greenery and world-class amenities. Experience unparalleled living in the heart of the city.",
+      "Discover Sobha Hartland 2 from AED 1.6M with a 40/60 plan—prime Dubai living offering direct beach access and strong investment potential.Discover Sobha Hartland 2 from AED 1.6M with a 40/60 plan—prime Dubai living offering direct beach access and strong investment potential.",
 
     url: "https://www.trustinhomes.ae/sobha-hartland2",
     siteName: "DAMAC Islands",

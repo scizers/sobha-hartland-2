@@ -31,7 +31,7 @@ const ApplyForm = ({ onClose }) => {
           <ContactForm
             onClose={onClose}
             bgColor="white"
-            btnBlue={true}
+            btnGold={true}
             btnText="Enquire Now"
           />
         </div>
