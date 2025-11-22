@@ -2,19 +2,19 @@
 
 import { useState, useRef, useEffect } from "react";
 import HeroSection from "@/components/HeroSection";
-import IslandDestinations from "@/components/IslandDestinations";
-import EverydayParadise from "@/components/EverydayParadise";
-import Amenities from "@/components/Amenities";
-import Gallery from "@/components/Gallery";
-import ParalaxEffect from "@/components/ParalaxEffect";
-import Location from "@/components/Location";
-import WhyDamac from "@/components/WhyDamac";
-import Collaborations from "@/components/Collaborations";
+// import IslandDestinations from "@/components/IslandDestinations";
+// import EverydayParadise from "@/components/EverydayParadise";
+// import Amenities from "@/components/Amenities";
+// import Gallery from "@/components/Gallery";
+// import ParalaxEffect from "@/components/ParalaxEffect";
+// import Location from "@/components/Location";
+// import WhyDamac from "@/components/WhyDamac";
+// import Collaborations from "@/components/Collaborations";
 import WhyInvestDubai from "@/components/WhyInvestDubai";
 import Payments from "@/components/Payments";
 import Footer from "@/components/Footer";
 import ApplyForm from "@/components/ApplyForm";
-import CtaSection from "@/components/CtaSection";
+// import CtaSection from "@/components/CtaSection";
 import AboutSection from "@/components/AboutSection";
 import Sophistication from "@/components/Sophistication";
 import LifestyleTabs from "@/components/LifeStyleTabs";
