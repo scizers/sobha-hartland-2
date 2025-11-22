@@ -18,7 +18,7 @@ export default function Footer() {
         />
       </div>
 
-      <div className="relative z-10 mainContainer mx-auto px-6 md:px-12 lg:px-20 pt-12 pb-44 lg:pb-32 flex flex-col items-center gap-6">
+      <div className="relative z-10 mainContainer mx-auto px-6 md:px-12 lg:px-20 pt-12 pb-28 lg:pb-32 flex flex-col items-center gap-6">
         {/* Logo */}
         <div className="">
           <Image
