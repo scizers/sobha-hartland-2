@@ -105,7 +105,6 @@ export default function LifestyleTabs({ onOpenPopup }) {
           </div>
         </div>
 
-        {/* RIGHT SCROLLABLE CONTENT */}
         <div className="lg:col-span-9  flex flex-col gap-10 lg:gap-36 pt-6 pr-4">
           {tabs.map((tab) => (
             <div

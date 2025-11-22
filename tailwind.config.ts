@@ -11,6 +11,8 @@ export default {
     extend: {
       colors: {
         greenColor: "#08241a",
+        gold: "#d3b08d",
+        darkGold: "#cd964b",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         card: {

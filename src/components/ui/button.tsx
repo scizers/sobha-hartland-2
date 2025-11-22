@@ -26,7 +26,8 @@ const buttonVariants = cva(
         green:
           "bg-greenColor text-white hover:bg-greenColor/80 font-semibold   ",
         blue: "bg-[#48c1ef] text-white hover:bg-[#48c1ef]/80 font-semibold   ",
-        gold: "bg-[#d3b08d] text-white hover:bg-[#d3b08d]/80 font-semibold   ",
+        gold: "bg-darkGold text-white hover:bg-darkGold/80 font-semibold   ",
+        black: "bg-black text-darkGold hover:bg-black/80 font-semibold   ",
       },
       size: {
         default: "h-9 px-4 lg:px-14 py-3 lg:py-6 btn",

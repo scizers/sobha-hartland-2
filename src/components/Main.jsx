@@ -18,61 +18,62 @@ import CtaSection from "@/components/CtaSection";
 import AboutSection from "@/components/AboutSection";
 import Sophistication from "@/components/Sophistication";
 import LifestyleTabs from "@/components/LifeStyleTabs";
+import HeroSectionMob from "@/components/HeroSectionMob";
 
-const statsData = [
-  {
-    id: 1,
-    icon: "/sobha-hartland2/whyDamac/icon1.svg",
-    number: "48,000+",
-    text: "Homes delivered*",
-  },
-  {
-    id: 2,
-    icon: "/sobha-hartland2/whyDamac/icon2.svg",
-    number: "50,100+",
-    text: "In planning and progress*",
-  },
-  {
-    id: 3,
-    icon: "/sobha-hartland2/whyDamac/icon3.svg",
-    number: "100+",
-    text: "Awards received",
-  },
-  {
-    id: 4,
-    icon: "/sobha-hartland2/whyDamac/icon4.svg",
-    number: "7",
-    text: "Countries",
-  },
-];
+// const statsData = [
+//   {
+//     id: 1,
+//     icon: "/sobha-hartland2/whyDamac/icon1.svg",
+//     number: "48,000+",
+//     text: "Homes delivered*",
+//   },
+//   {
+//     id: 2,
+//     icon: "/sobha-hartland2/whyDamac/icon2.svg",
+//     number: "50,100+",
+//     text: "In planning and progress*",
+//   },
+//   {
+//     id: 3,
+//     icon: "/sobha-hartland2/whyDamac/icon3.svg",
+//     number: "100+",
+//     text: "Awards received",
+//   },
+//   {
+//     id: 4,
+//     icon: "/sobha-hartland2/whyDamac/icon4.svg",
+//     number: "7",
+//     text: "Countries",
+//   },
+// ];
 
-const statsData2 = [
-  {
-    id: 1,
-    icon: "/sobha-hartland2/empoweringImages/icon1.svg",
-    text: "One Million Arab Coders Initiative",
-  },
-  {
-    id: 2,
-    icon: "/sobha-hartland2/empoweringImages/icon2.svg",
-    text: "Community Development Programs",
-  },
-  {
-    id: 3,
-    icon: "/sobha-hartland2/empoweringImages/icon3.svg",
-    text: "Sustainability",
-  },
-  {
-    id: 4,
-    icon: "/sobha-hartland2/empoweringImages/icon4.svg",
-    text: "Educational Support Initiatives",
-  },
-];
+// const statsData2 = [
+//   {
+//     id: 1,
+//     icon: "/sobha-hartland2/empoweringImages/icon1.svg",
+//     text: "One Million Arab Coders Initiative",
+//   },
+//   {
+//     id: 2,
+//     icon: "/sobha-hartland2/empoweringImages/icon2.svg",
+//     text: "Community Development Programs",
+//   },
+//   {
+//     id: 3,
+//     icon: "/sobha-hartland2/empoweringImages/icon3.svg",
+//     text: "Sustainability",
+//   },
+//   {
+//     id: 4,
+//     icon: "/sobha-hartland2/empoweringImages/icon4.svg",
+//     text: "Educational Support Initiatives",
+//   },
+// ];
 
 export default function Main() {
   const [openPopup, setOpenPopup] = useState(false);
 
-  const [initialPopupShown, setInitialPopupShown] = useState(false);
+  // const [initialPopupShown, setInitialPopupShown] = useState(false);
   const timerRef = useRef(null);
 
   // useEffect(() => {
@@ -100,6 +101,12 @@ export default function Main() {
 
   return (
     <main className="min-h-screen bg-white">
+      <HeroSectionMob
+        src="/sobha-hartland2/backgrounds/newMob.jpg"
+        alt="Mobile Hero Image"
+        className="lg:hidden"
+        onOpenPopup={handleOpenPopup}
+      />
       <HeroSection onOpenPopup={handleOpenPopup} />
       <AboutSection />
       <Sophistication />
