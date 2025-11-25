@@ -14,8 +14,8 @@ export default function HeroSectionMob({
       <Image
         src={src}
         alt={alt}
-        width={650}
-        height={800}
+        width={1200}
+        height={1500}
         className="w-full h-auto object-cover"
         priority
       />
