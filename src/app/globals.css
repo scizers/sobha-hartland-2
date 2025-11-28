@@ -9,6 +9,11 @@
 body {
   font-family: var(--font-montserrat);
 }
+.playfair-italic {
+  font-family: var(--font-playfair);
+  font-style: italic;
+}
+
 /* .mainContainer {
   width: 1200px;
 }
@@ -83,7 +88,7 @@ body {
   @apply text-xs lg:text-sm tracking-wider;
 }
 .h1 {
-  @apply text-[24px] leading-[29px] lg:text-[38px]   lg:leading-[46px] tracking-wider;
+  @apply text-[24px] leading-[29px] lg:text-[38px]   lg:leading-[46px] tracking-widest;
 }
 .h2 {
   @apply text-[18px] leading-[22px] lg:text-[35px]  lg:leading-[35px] tracking-wider;

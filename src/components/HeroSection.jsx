@@ -45,11 +45,11 @@ const HeroSection = ({ onOpenPopup }) => {
 
         <div className="relative left-0 top-1/2 -translate-y-1/2 z-[3] lg:flex flex-col justify-start items-start mainContainer mx-auto  ">
           <h1 className="text-white h3  mb-6 ">
-            <span className="uppercase tracking-tighter ">
+            <span className="uppercase tracking-tighter pl-2">
               Invest Right in the{" "}
             </span>
             <br />
-            <span className="italic text-[35px] lg:text-[45px] text-darkGold mt-[4px] inline-block">
+            <span className="playfair-italic text-[35px] lg:text-[45px] text-darkGold mt-[4px] inline-block ">
               Centre of Dubai
             </span>
           </h1>
@@ -75,11 +75,11 @@ const HeroSection = ({ onOpenPopup }) => {
               subtitle="28 MINUTES AWAY - 24 KM"
             />
           </div>
-          <h2 className=" p1 !tracking-normal text-darkGold ">
-            <span className="uppercase tracking-tighter">Apartments from </span>{" "}
-            <span className="font-bold h3 !tracking-normal ">1.6 M AED</span>
+          <h2 className=" p1 !tracking-normal text-darkGold pl-2 space-x-1">
+            <span className="uppercase ">Apartments from </span>{" "}
+            <span className="font-bold h3  ">1.6 M. AED</span>
             <span className=" h3  "> | </span>
-            <span className="font-bold h3 !tracking-normal ">436,000 USD</span>
+            <span className="font-bold h3  ">436,000 USD</span>
           </h2>
         </div>
       </div>

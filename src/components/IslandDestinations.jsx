@@ -22,7 +22,7 @@ const IslandDestinations = ({ onOpenPopup }) => {
             <h2 className="h1 font-bold mb-4 text-white">
               INSPIRED BY SIX OF THE
             </h2>
-            <p className="h2 italic text-white ">
+            <p className="h2 playfair-italic text-white ">
               world's best tropical island <br /> destinations
             </p>
           </div>

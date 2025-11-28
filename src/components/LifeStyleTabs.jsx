@@ -146,7 +146,7 @@ export default function LifestyleTabs({ onOpenPopup }) {
                   </p>
 
                   <h3
-                    className={`h2 italic text-gray-900  border-b border-gray-300 pb-4  ${
+                    className={`h2 playfair-italic text-gray-900  border-b border-gray-300 pb-4  ${
                       tab.position === "left" ? "  lg:pl-5" : "  lg:pr-5"
                     }`}
                   >

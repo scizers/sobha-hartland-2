@@ -8,7 +8,7 @@ export default function Sophistication() {
       <div className="mx-auto ">
         <h2 className="mb-12 h3 tracking-widest text-gray-600 text-center">
           STEP INTO{" "}
-          <span className="italic text-black h1">
+          <span className="playfair-italic text-black h1">
             A World Of Sophistication
           </span>
         </h2>

@@ -1,4 +1,4 @@
-import { Montserrat } from "next/font/google";
+import { Montserrat, Playfair_Display } from "next/font/google";
 import "./globals.css";
 import ClientBody from "./ClientBody";
 import Script from "next/script";
@@ -7,6 +7,15 @@ const montserrat = Montserrat({
   subsets: ["latin"],
   variable: "--font-montserrat",
   weight: ["300", "400", "500", "600", "700", "800"],
+  display: "swap",
+});
+
+// Playfair Display (Italic)
+const playfair = Playfair_Display({
+  subsets: ["latin"],
+  variable: "--font-playfair",
+  style: ["italic"],
+  weight: ["400", "500", "600", "700"], // choose any
   display: "swap",
 });
 
@@ -19,7 +28,6 @@ export const metadata = {
     title: "Sobha Hartland 2 | Homes from AED 1.6M | Dubai Living",
     description:
       "Discover Sobha Hartland 2 from AED 1.6M with a 40/60 plan—prime Dubai living offering direct beach access and strong investment potential.Discover Sobha Hartland 2 from AED 1.6M with a 40/60 plan—prime Dubai living offering direct beach access and strong investment potential.",
-
     url: "https://www.trustinhomes.ae/sobha-hartland2",
     siteName: "DAMAC Islands",
     images: [
@@ -35,15 +43,14 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={montserrat.variable}>
+    <html lang="en" className={`${montserrat.variable} ${playfair.variable}`}>
       <head>
-        {/* Google Tag (gtag.js) */}
+        {/* Scripts */}
         <Script
           id="google-gtag"
           strategy="afterInteractive"
           src="https://www.googletagmanager.com/gtag/js?id=AW-17729890866"
         />
-
         <Script
           id="google-gtag-inline"
           strategy="afterInteractive"
@@ -56,8 +63,7 @@ export default function RootLayout({ children }) {
             `,
           }}
         />
-
-        {/* Facebook Pixel Script */}
+        {/* Facebook Pixels */}
         <Script
           id="fb-pixels"
           strategy="afterInteractive"
@@ -85,28 +91,13 @@ export default function RootLayout({ children }) {
         suppressHydrationWarning
         className="antialiased font-[var(--font-montserrat)]"
       >
-        {/* NoScript fallback for Pixels */}
         <noscript>
           <img
             height="1"
             width="1"
             style={{ display: "none" }}
             src="https://www.facebook.com/tr?id=1472636327269407&ev=PageView&noscript=1"
-            alt="facebook-pixel-1"
-          />
-          <img
-            height="1"
-            width="1"
-            style={{ display: "none" }}
-            src="https://www.facebook.com/tr?id=779280361560548&ev=PageView&noscript=1"
-            alt="facebook-pixel-2"
-          />
-          <img
-            height="1"
-            width="1"
-            style={{ display: "none" }}
-            src="https://www.facebook.com/tr?id=1093323455143639&ev=PageView&noscript=1"
-            alt="facebook-pixel-3"
+            alt=""
           />
         </noscript>
 

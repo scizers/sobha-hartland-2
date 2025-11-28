@@ -7,7 +7,6 @@ import { Button } from "./ui/button";
 import { Textarea } from "./ui/textarea";
 import CustomPhoneInput from "./ui/CustomPhoneField";
 import { submitLead, validateEmail, validatePhone } from "../lib/utils";
-import Dropdown from "./ui/Dropdown";
 
 export default function ContactForm({
   onClose,
@@ -17,7 +16,6 @@ export default function ContactForm({
 }) {
   const router = useRouter();
   const initState = {
-    title: "",
     firstName: "",
     lastName: "",
     email: "",
@@ -29,20 +27,6 @@ export default function ContactForm({
   const [formErrors, setFormErrors] = useState({});
   const [errorMessage, setErrorMessage] = useState("");
   const [loading, setLoading] = useState(false);
-
-  const titleOptions = ["Mr.", "Mrs.", "Ms."];
-  const [dropdownOpen, setDropdownOpen] = useState(false);
-  const dropdownRef = useRef(null);
-
-  useEffect(() => {
-    const handleClickOutside = (event) => {
-      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
-        setDropdownOpen(false);
-      }
-    };
-    document.addEventListener("mousedown", handleClickOutside);
-    return () => document.removeEventListener("mousedown", handleClickOutside);
-  }, []);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -62,6 +46,7 @@ export default function ContactForm({
 
   const validate = () => {
     const errors = {};
+
     if (!formData.firstName.trim()) errors.firstName = "First name is required";
     if (!formData.lastName.trim()) errors.lastName = "Last name is required";
 
@@ -96,8 +81,6 @@ export default function ContactForm({
       if (response?.success || response?.status === "success") {
         setFormData(initState);
         if (onClose) onClose();
-
-        // ✅ Redirect to Thank You page
         router.push("/thank-you");
       } else {
         setErrorMessage(
@@ -118,18 +101,6 @@ export default function ContactForm({
       className="space-y-4 p-8 rounded-lg"
       noValidate
     >
-      <Dropdown
-        options={titleOptions}
-        value={formData.title}
-        onChange={(value) => {
-          setFormData((prev) => ({ ...prev, title: value }));
-          if (formErrors.title)
-            setFormErrors((prev) => ({ ...prev, title: "" }));
-        }}
-        placeholder="Title"
-        error={formErrors.title}
-      />
-
       <Input
         name="firstName"
         placeholder="First Name *"

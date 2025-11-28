@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function AboutSection() {
   return (
-    <section className="bg-[#11151c]">
+    <section className="bg-[#11151c] lg:bg-white">
       <div className="relative w-full bg-white pt-10 lg:pb-10 rounded-t-[30px] overflow-hidden   lg:-translate-y-6">
         {/* Top colored overlay */}
         <div className="absolute top-0 left-0 w-full h-[140px] bg-gradient-to-b from-[#d4d3d4] via-[#d4d3d4]/10 to-transparent lg:rounded-t-2xl pointer-events-none"></div>
@@ -25,7 +25,7 @@ export default function AboutSection() {
           <div className="flex flex-col  justify-center gap-6 lg:col-span-9 w-full lg:pl-16 border-t lg:border-l lg:border-t-0 border-gray-200">
             <h2 className="mt-3 h4  tracking-widest text-gray-600 text-start">
               DUBAI’S MOST{" "}
-              <span className="italic text-black h3">
+              <span className="playfair-italic text-black h3">
                 Premium Master Community
               </span>
             </h2>
